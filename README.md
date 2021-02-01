@@ -20,7 +20,7 @@
 
 - You can clone the repository in your folder.
 ```bash
-git clone https://github.com/bmangeat/dashboard-hero.git
+git clone https://github.com/BaptisteOry/portfolio_baptisteory.git
 ```
 - Project setup
 ```
@@ -41,7 +41,7 @@ npm run lint
 
 ###  Links
 *https://orybaptiste.fr/*<br/>
-**
+*https://github.com/BaptisteOry/portfolio_baptisteory*
 
 ###  Credits
 **Baptiste Ory** - (https://github.com/BaptisteOry)

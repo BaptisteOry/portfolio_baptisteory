@@ -96,6 +96,10 @@
     transform: rotate(-12deg);
   }
 
+  .fade-enter-active, .fade-leave-active {
+    transition-delay: .2s;
+  }
+
 /*------------------------------
 Responsiveness
 ------------------------------*/
