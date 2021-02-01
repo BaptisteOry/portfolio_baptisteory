@@ -15,9 +15,9 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
   $contenu = '<html><head><title>E-mail du portfolio</title></head><body>';
   $contenu .= '<p>Bonjour, vous avez reçu un message à partir de votre site web.</p>';
   $contenu .= '<p><strong>Prénom</strong> : '.$prenom.'</p>';
-  $contenu .= '<p><strong>Nom</strong> : '.nom.'</p>';
+  $contenu .= '<p><strong>Nom</strong> : '.$nom.'</p>';
   $contenu .= '<p><strong>Email</strong> : '.$email.'</p>';
-  $contenu .= '<p><strong>Sujet</strong> : '.sujet.'</p>';
+  $contenu .= '<p><strong>Sujet</strong> : '.$sujet.'</p>';
   $contenu .= '<p><strong>Message</strong> : '.$message.'</p>';
   $contenu .= '</body></html>'; // Contenu du message de l'email (en XHTML)
  

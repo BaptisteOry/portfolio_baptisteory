@@ -4,3 +4,4 @@ Disallow: /css
 Disallow: /img
 Disallow: /js
 Disallow: /php
+Disallow: /save

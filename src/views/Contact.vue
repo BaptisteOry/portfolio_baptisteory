@@ -115,7 +115,7 @@ export default {
         prenom: '',
         nom: '',
         email: '',
-        subject: '',
+        sujet: '',
         message: ''
       }
     }
@@ -128,7 +128,6 @@ export default {
     /* Submit the form */
     onSubmit (e) {
       e.preventDefault()
-      this.onReset()
       this.load = true
       axios
         .post('https://orybaptiste.fr/php/mail.php', querystring.stringify(this.form))
@@ -136,12 +135,14 @@ export default {
           this.sent = true
           this.error = false
           this.load = false
+          this.onReset()
         })
         .catch((error) => {
           console.log(error)
           this.sent = false
           this.error = true
           this.load = false
+          this.onReset()
         })
     },
     /* Reset the form */
@@ -149,7 +150,7 @@ export default {
       this.form.prenom = ''
       this.form.nom = ''
       this.form.email = ''
-      this.form.subject = ''
+      this.form.sujet = ''
       this.form.message = ''
     }
   }
