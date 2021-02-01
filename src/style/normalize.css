@@ -1,0 +1,48 @@
+/*------------------------------
+Normalize
+------------------------------*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+video,
+audio,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2;
+}
+
+header,
+footer,
+section,
+aside,
+nav,
+article,
+figure,
+figcaption {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}

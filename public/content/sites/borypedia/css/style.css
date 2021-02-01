@@ -1,0 +1,303 @@
+/* Général */
+
+@font-face {
+  font-family: "Linux Libertine";
+  src: url("../fonts/LinLibertine_R.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Linux Libertine";
+	font-style: italic;
+	src: url("../fonts/LinLibertine_R.ttf") format('truetype');
+}
+
+body{
+    background-color: #f6f6f6;
+    
+}
+
+abbr{
+    text-decoration: none!important;
+}
+
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+a:focus, a:hover{
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #0b0080;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Titres */
+
+h1, h2, h3 {
+    color: black;
+    font-weight: 200;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1{
+    border-bottom: 1px solid #a2a9b1;
+    font-family: "Linux Libertine";
+    font-size: 2.2em;
+    line-height: 1.3;
+    margin-bottom: 0.25em;
+    padding: 0;
+}
+
+h2{
+    border-bottom: 1px solid #a2a9b1;
+    font-family: "Linux Libertine";
+    font-size: 1.6em;
+    line-height: 1.3;
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+    padding: 0;
+}
+
+h3{
+    border-bottom: dotted 1px #aaa;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-top: 0.3em;
+    margin-bottom: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0;
+}
+
+.editsection{
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: normal;
+    margin-left: 0.8em;
+}
+
+/* Zone droite contenu */
+
+.content{
+    background-color: #ffffff;
+    border-color: #a7d7f9;
+    border-style: solid;
+    border-top: 0;
+    border-width: 1px 0 1px 1px;
+    font-size: 0.875em;
+    line-height: 1.6;
+    margin-left: 11.5em;
+    padding: 1.25em 1.5em 1.5em;
+}
+
+/* Paragraphes et images */
+
+.content p{
+    color : #222;
+    margin: 0.5em 0;
+}
+
+.thumbnail_l, .thumbnail_r {
+    width: 222px;
+    background-color: #f8f9fa;
+    border: 1px solid #c8ccd1;
+    overflow: hidden;
+    padding: 3px;  
+    text-align: center;
+}
+
+.thumbnail_l {
+    float:left;
+    margin: 0.5em 1.4em 1.3em 0;
+}
+
+.thumbnail_r {
+    float:right;
+    margin: 0.5em 0 1.3em 1.4em;
+}
+
+.thumbnail_l img, .thumbnail_r img{
+    width: 222px;
+}
+
+.legend_2{
+    font-size: 94%;
+    line-height: 1.4em;
+    padding: 3px;
+    text-align: left;
+}
+
+.reference{
+    padding-left: 1px;
+    vertical-align: text-top;
+    position: relative;
+    font-size: 0.8em;
+    top: -5px;
+    line-height: 1;
+}
+
+.cite_virgule{
+    padding-left: 0;
+    padding-right: 1px;
+}
+
+#references_area{
+    font-size: 85%;
+}
+
+/* Sommaire */
+
+#summary {
+    display: table;
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    font-size: 95%;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+#summaryTitle{
+    font-weight: bold;
+}
+
+#summary .tocnumber, #summary .toctext{
+    display: table-cell;
+    text-decoration: inherit;
+}
+
+#summary .tocnumber {
+    color: #222;
+    padding-left: 0;
+    padding-right: 0.5em;
+
+}
+
+#summary ul ul{
+    margin: 0 0 0 2em;
+}
+
+/* Infobox */
+
+#infobox{
+    max-width:300px;
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    clear: right;
+    float: right;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    margin: 0 0 0.5em 1em;
+    max-width: 325px;
+    padding: 5px;
+    width: 25em;
+    word-wrap: break-word;
+}
+
+#infobox .entete{
+    display: table;
+    width: 100%;
+    background-color: #7da7d9;
+    color: black;
+    font-size: 1.4em;
+    font-weight: bold;
+    height: 45px;
+    line-height: 1.1em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#infobox .subentete{
+    display: table-cell;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+#infobox .image{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px 0;
+    text-align: center;
+}
+
+#infobox .image img{
+    width: 260px;
+    max-width: 100%;
+}
+
+#infobox .legend{
+    font-size: 0.9em;
+    margin: 5px 0 8px;
+    text-align: center;
+}
+
+#infobox table{
+    border-collapse: collapse;
+    margin: 5px 0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+#infobox th[scope="row"]{
+    width: 8em;
+    max-width: 140px;
+    padding-top: 4px;
+    padding-right: 10px;
+    text-align: left;
+    vertical-align: super;
+}
+
+#infobox td{
+    padding-top: 4px;
+    vertical-align: super;
+}
+
+#infobox caption{
+    color: #000000;
+    background-color: #7DA7D9;
+    text-align: center;
+}
+
+#infobox ul{
+    margin: 0.3em 0 0 1.6em;
+    list-style-type: disc;
+}
+
+/* Zone gauche */
+
+#left_area{
+    position : absolute;
+    width: 10em;
+    left: 0;
+    padding-top: 1em;
+}
+
+#left_area>#logo{
+    text-align: center;
+}
+
+#left_area>#logo img{
+    width: 90%;
+}
+
+#left_area>#menu{
+    margin: 1em 0.6em 0 0.7em;
+    padding: 0.25em 0;
+}
+
+#left_area>#menu li{
+    font-size: 0.75em;
+    line-height: 1.125em;
+    margin: 0;
+    padding: 0.35em 0;
+    word-wrap: break-word;
+ }

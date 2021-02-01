@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Créez ici et maintenant votre CV dynamique !" />
+    <meta name="keywords" content="cv, Baptiste, Ory, compétences, expériences, professionnel" />
+    <meta name="author" content="Baptiste Ory" />
+    <title>CV dynamique | Baptiste Ory</title>
+    <link rel="stylesheet" href="css/styleCv.css" />
+    <link rel="icon" type="image/x-icon" href="css/images/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="css/images/favicon.ico" />
+</head>
+
+<body>
+    <header>
+        <h1>Créez votre CV dynamique</h1>
+    </header>
+
+    <main>
+        <div id="saisies">
+            <p>Renseignez les informations nécessaires au CV ici</p>
+            <div id="zoneIdentite">
+                <h2>Identité</h2>
+                <label for="prenom">Prénom</label>
+                <input type="text" name="prenom" id="prenom" />
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom" />
+            </div>
+            <div id="zoneCompetences">
+                <h2>Compétences</h2>
+                <div>
+                    <label for="competence">Compétence</label>
+                    <input type="text" name="competence" id="competence" />
+                </div>
+                <div>
+                    <input id="boutonCompetence" class="submit" type="submit" value="Ajouter une compétence" />
+                    <input id="boutonSuppCompetence" class="submit" type="submit" value="Supprimer la dernière compétence" />
+                </div>
+            </div>
+            <div id="zoneExperience">
+                <h2>Expérience professionnelle</h2>
+                <div>
+                    <label for="titreExperience">Titre de l'expérience</label>
+                    <input type="text" name="titreExperience" id="titreExperience" />
+                    <label for="debutExperience">Début</label>
+                    <input type="month" name="debutExperience" id="debutExperience" />
+                    <label for="finExperience">Fin</label>
+                    <input type="month" name="finExperience" id="finExperience" />
+                    <label for="descExperience">Description</label>
+                    <textarea name="descExperience" id="descExperience" rows="5" cols="30" placeholder="Décrivez votre expérience"></textarea>
+                </div>
+                <div>
+                    <input id="boutonExperience" class="submit" type="submit" value="Ajouter une expérience professionnelle" />
+                    <input id="boutonSuppExperience" class="submit" type="submit" value="Supprimer la dernière expérience" />
+                </div>
+            </div>
+            <div id="zoneParcours">
+                <input id="boutonParcours" class="button" type="button" value="Choisissez votre parcours" />
+                <div id="propositionParcours"></div>
+            </div>
+        </div>
+        <div id="cv">
+            <h2>CV</h2>
+            <div id="mesCompetences">
+            </div>
+            <div id="mesExperiences">
+            </div>
+            <div id="postuler">
+                <input id="boutonPostuler" class="button" type="button" value="Postuler" />
+            </div>
+            <div id="reponseEmployeur"></div>
+        </div>
+    </main>
+    
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/cvDynamiqueJQuery.js"></script>
+    <script type="text/javascript" src="js/postuler.js"></script>
+</body>
+
+</html>

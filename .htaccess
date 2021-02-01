@@ -1,0 +1,12 @@
+Options all -Indexes
+<filesMatch ".(htaccess|txt)$">
+    order deny,allow
+    deny from all
+</filesMatch>
+<filesMatch "(index.html|index.php)">
+    order allow,deny
+    allow from all
+</filesMatch>
+
+ErrorDocument 404 /index.html
+ErrorDocument 403 /index.html
