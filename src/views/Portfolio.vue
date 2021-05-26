@@ -229,7 +229,7 @@
           {
             types: ['design'],
             name: 'Tsuuk Maaya',
-            description: "Conception, en groupe, de l'identité graphique d'un parc d'attraction fictif, ayant pour thème les mayas. Recherches historiques et graphiques. Graphisme de la signalétique et d'une partie de la carte avec Adobe Illustrator et Adobe Photoshop.",
+            description: "Conception, en groupe, de l'identité graphique d'un parc d'attraction fictif, ayant pour thème la civilisation maya. Recherches historiques et graphiques. Graphisme de la signalétique et d'une partie de la carte avec Adobe Illustrator et Adobe Photoshop.",
             links: [{ name: 'Dossier du projet', location: 'content/portfolio/contenu_portfolio_tsuukMaaya_dossier.pdf' }, { name: 'Plan du parc', location: 'content/portfolio/contenu_portfolio_tsuukMaaya_plan.png' }],
             illustration: { image: 'portfolio/portfolio_tsuukMaaya.jpg' },
             year: 2019

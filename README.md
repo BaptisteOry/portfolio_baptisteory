@@ -12,7 +12,7 @@
 * Animations CSS : shadow of titles, menu scroll, menu arrow, buttons
 * Portfolio : choice of projects & menu scroll, component Project
 * Contact : send email : Axios (https://github.com/axios/axios)
-* Responsive : Media queries & Bootstrap grid (https://getbootstrap.com/docs/4.0/layout/grid/)
+* Responsive : Media queries & Bootstrap 4.5 grid (https://getbootstrap.com/docs/4.0/layout/grid/)
 * Custom vertical bar : Simplebar (https://github.com/Grsmto/simplebar)
 * Icons : Font Awesome (https://github.com/FortAwesome/Font-Awesome)
 
